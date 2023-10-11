@@ -1,0 +1,51 @@
+.logo-1 {
+  border-radius: 8px;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.home {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sub-header {
+  color: #939393;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.fname,
+.email {
+  background: #222;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.fname:focus,
+.email:focus {
+  outline: 1px solid #758E4F;
+}
+
+.submit-btn {
+  background: #758E4F;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+  opacity: 0.8;
+}
+
+.submit-btn:active {
+  opacity: 0.7;
+}
