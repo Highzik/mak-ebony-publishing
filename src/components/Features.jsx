@@ -32,7 +32,7 @@ const Features = () => {
             <img src="src/images/img-4.jpg" alt="a lady typing on a laptop" className='img-fluid w-100 h-100 logo-3 mb-1' />
 
             {/* I gave the same className for the paragraph because it aids the styling */}
-            <p className='exam-preparations'>Accounting Study Materials</p>
+            <p className='exam-preparations'>Accounting Materials</p>
           </div>
           <div className="col-lg-4 col-md-6 mb-2 thirdImgContainer">
             <img src="src/images/img-5.jpg" alt="two ladies close to each other" className='img-fluid w-100 h-100 logo-4 mb-1' />

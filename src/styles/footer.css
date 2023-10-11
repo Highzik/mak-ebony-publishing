@@ -1,0 +1,32 @@
+.footer-section {
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+
+.footer-section a {
+  text-decoration: none;
+}
+
+.mak-ebony {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+button {
+  border: none;
+  margin-right: 15px;
+  background: #222;
+  padding: 8px 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button a {
+  color: #fff;
+}

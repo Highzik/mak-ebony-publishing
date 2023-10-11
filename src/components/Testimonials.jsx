@@ -4,7 +4,10 @@ import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
 
 const Testimonials = () => {
-  const articleRef = useRef(null);
+  const article1Ref = useRef(null);
+  const article2Ref = useRef(null);
+  const article3Ref = useRef(null);
+  const article4Ref = useRef(null);
   useEffect(() => {
     const sr = ScrollReveal(({
       distance: '60px',
@@ -12,14 +15,17 @@ const Testimonials = () => {
       reset: true,
       easing: 'ease'
     }))
-    sr.reveal(articleRef.current, { delay: 300, origin: 'left' })
+    sr.reveal(article1Ref.current, { delay: 300, origin: 'left' })
+    sr.reveal(article2Ref.current, { delay: 300, origin: 'left' })
+    sr.reveal(article3Ref.current, { delay: 300, origin: 'left' })
+    sr.reveal(article4Ref.current, { delay: 300, origin: 'left' })
   })
   return (
     <div className="container-fluid testimony-section">
-      <div className="container" ref={articleRef}>
+      <div className="container" ref={article1Ref}>
         <h2 className="mb-4 testimony">Testimonials</h2>
         <div className="row">
-          <div className='col-lg-4 col-md-6 testimony-container'>
+          <div className='col-lg-4 col-md-6 testimony-container' ref={article2Ref}>
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />
@@ -28,7 +34,7 @@ const Testimonials = () => {
             <p className='about-company'>Mak-Ebony Publishing, based in Lagos, is a premier resource for aspiring accountants, providing high-qlaity, indispensable materials for those aiming to excel in their ICAN certification</p>
             <p className='writersAboutCompany'>Mary Bassey</p>
           </div>
-          <div className='col-lg-4 col-md-6 testimony-container'>
+          <div className='col-lg-4 col-md-6 testimony-container' ref={article3Ref}>
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />
@@ -37,7 +43,7 @@ const Testimonials = () => {
             <p className='about-company'>Mak-Ebony Publishing, with its invaluable materials, illuminates the path for aspiring accountants in Lagos, shaping the future of ICAN certification </p>
             <p className='writersAboutCompany'>Blessing Odukoya</p>
           </div>
-          <div className='col-lg-4 col-md-6 testimony-container'>
+          <div className='col-lg-4 col-md-6 testimony-container' ref={article4Ref}>
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />
             <FaStar style={reactIconStyle} />

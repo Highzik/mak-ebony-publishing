@@ -1,0 +1,48 @@
+.contact-section {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.logo-6 {
+  border-radius: 8px;
+}
+
+.contact-header {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.subContact-header {
+  color: #939393;
+  font-weight: 400;
+}
+
+.textArea {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.send-btn-3 {
+  background: #758e4f;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.send-btn-3:hover {
+  opacity: 0.8;
+}
+
+.send-btn-3:active {
+  opacity: 0.7;
+}
+
+.textArea:focus {
+  outline: 1px solid #758e4f;
+}
