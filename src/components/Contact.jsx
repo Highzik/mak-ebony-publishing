@@ -13,7 +13,7 @@ const Contact = () => {
       easing: 'ease'
     }))
     sr.reveal(article1Ref.current, { delay: 300, origin: 'left' })
-    sr.reveal(article2Ref.current, { delay: 300, origin: 'right' })
+    sr.reveal(article2Ref.current, { delay: 300, origin: 'bottom' })
   })
   return (
     <div className='container-fluid contact-section'>

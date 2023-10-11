@@ -1,10 +1,16 @@
 .footer-section {
   padding-bottom: 100px;
-  padding-top: 30px;
+  padding-top: 100px;
+  background: #222;
 }
 
 .footer-section a {
   text-decoration: none;
+}
+
+.footer-section p {
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .mak-ebony {
@@ -16,7 +22,7 @@
 button {
   border: none;
   margin-right: 15px;
-  background: #222;
+  background: #111;
   padding: 8px 15px;
   margin-top: 25px;
   margin-bottom: 25px;

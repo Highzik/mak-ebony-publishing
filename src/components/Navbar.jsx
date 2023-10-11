@@ -9,27 +9,10 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse navbarSupportedContent " id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              <a className="nav-link" href="#home" data-bs-toggle="dropdown" title='Home'>
-                Home
-              </a>
-              <li className="nav-item">
-                <a className="nav-link" href="#services" title='Services'>Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#about" title='About'>About</a>
-              </li>
-              <a className="nav-link" href="#blog" role="button" data-bs-toggle="dropdown" aria-expanded="false" title='Blog'>
-                Blog
-              </a>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact" title='Contact'>Contact</a>
-              </li>
-            </ul>
+            <button className='nav-btn col-lg-auto col-11'>Start Learning Now</button>
           </div>
         </div>
       </nav >
-
     </>
   )
 }

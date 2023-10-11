@@ -3,3 +3,25 @@ body {
   color: #fff;
   background: #111;
 }
+
+.nav-btn {
+  background: #758e4f;
+  color: #fff;
+  font-weight: 700;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbarSupportedContent {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-toggler {
+  color: #758e4f;
+  font-weight: 700;
+  border: 1px solid #758e4f;
+}
