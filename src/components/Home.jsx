@@ -32,7 +32,7 @@ const Home = () => {
         <div className="row">
           {/* image section */}
           <div className='col-md-12 col-lg-6' ref={imageRef}>
-            <img src="src/images/img-6.jpg" alt="a phone and a notepad" className="logo-1 img-fluid h-100" />
+            <img src="src/images/img-6.jpg" alt="a phone and a notepad" className="logo-1 img-fluid h-100 w-100" />
           </div>
 
           {/* article section */}

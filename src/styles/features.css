@@ -1,0 +1,74 @@
+.features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #222;
+}
+
+.firstImgContainer,
+.secondImgContainer,
+.thirdImgContainer {
+  background: #111;
+  border-radius: 16px;
+  padding: 45px;
+  border: 5px solid #222;
+}
+
+.exam-preparations {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.logo-2,
+.logo-3,
+.logo-4 {
+  border-radius: 8px;
+}
+
+.feature-header {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.text-subscription {
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.subtext-subscription {
+  font-weight: 700;
+  color: #939393;
+  font-size: 14px;
+}
+
+.email-2 {
+  background: #111;
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.email-2:focus {
+  outline: 1px solid #758e4f;
+}
+
+.subscribe-btn {
+  background: #758E4F;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.subscribe-btn:hover {
+  opacity: 0.8;
+}
+
+.subscribe-btn:active {
+  opacity: 0.7;
+}
