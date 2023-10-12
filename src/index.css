@@ -25,3 +25,12 @@ body {
   font-weight: 700;
   border: 1px solid #758e4f;
 }
+
+.navigationBar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.0);
+  backdrop-filter: blur(9px);
+}
