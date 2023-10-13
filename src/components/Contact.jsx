@@ -1,5 +1,5 @@
 import '/src/styles/contact.css'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ScrollReveal from 'scrollreveal'
 
 const Contact = () => {
@@ -15,6 +15,11 @@ const Contact = () => {
     sr.reveal(article1Ref.current, { delay: 300, origin: 'left' })
     sr.reveal(article2Ref.current, { delay: 300, origin: 'bottom' })
   })
+
+  //this is to be aware of the state of the inputs
+  const [fname, setFname] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
   return (
     <div className='container-fluid contact-section'>
       <div className="container">
@@ -27,6 +32,8 @@ const Contact = () => {
                 type="text"
                 placeholder='First name'
                 required
+                value={fname}
+                onChange={(e) => setFname(e.target.value)}
                 className='col-12 mb-2 fname'
               />
 
@@ -34,16 +41,21 @@ const Contact = () => {
                 type="email"
                 placeholder='Email'
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className='col-12 mb-2 email'
               />
 
               <textarea
                 rows="5"
                 placeholder='Leave a message'
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className='col-12 textArea'>
               </textarea>
+              <input type="submit" value="Send" className='mb-2 send-btn-3' />
             </form>
-            <input type="button" value="Send" className='mb-2 send-btn-3' />
           </div>
           <div className="col-lg-6" ref={article2Ref}>
             <img src="src/images/img-1.jpg" alt="a glass and a pen on a book" className='img-fluid logo-6' />

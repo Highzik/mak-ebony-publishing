@@ -1,5 +1,5 @@
 import '/src/styles/features.css'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ScrollReveal from 'scrollreveal'
 
 const Features = () => {
@@ -16,8 +16,16 @@ const Features = () => {
     sr.reveal(firstContainerRef.current, { delay: 300, origin: 'bottom' });
     sr.reveal(secondContainerRef.current, { delay: 300, origin: 'bottom' })
   })
+
+  //this aspect is to control the state of the email input
+  const [email, setEmail] = useState('');
+
+  //this aspect is to control the sumbission of the email input
+  const handleSubmit = (e) => {
+    e.preventDefault()
+  }
   return (
-    <section id='' className='features contain-fluid'>
+    <section className='features contain-fluid'>
       {/* this is the section about the features and the images */}
       <div className="container mb-2" ref={firstContainerRef}>
         <h1 className='mb-2 feature-header'>Features</h1>
@@ -48,9 +56,15 @@ const Features = () => {
         <p className='text-subscription mb-1'>Subscribe to our newsletter</p>
         <p className='subtext-subscription'>Obtain our most recent news and updates</p>
         <div className="justify-content-center">
-          <form>
-            <input type="email" placeholder='Email' required className='email-2 col-6 mb-1' /><br />
-            <input type="button" value='Subscribe' className='subscribe-btn col-3' />
+          <form onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder='Email'
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className='email-2 col-6 mb-1' /><br />
+            <input type="submit" value='Subscribe' className='subscribe-btn col-3' />
           </form>
         </div>
       </div>

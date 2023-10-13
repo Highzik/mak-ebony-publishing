@@ -7,7 +7,7 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import SlideShow from './components/SlideInPage';
+import SlideShow from './components/SlideShow';
 
 function App() {
   return (
