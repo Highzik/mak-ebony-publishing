@@ -7,7 +7,7 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import SlideInPage from './components/SlideInPage';
+import SlideShow from './components/SlideInPage';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Features />
       <About />
       <Testimonials />
-      <SlideInPage />
+      <SlideShow />
       <Contact />
       <Footer />
     </>

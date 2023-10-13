@@ -1,5 +1,5 @@
-import '/src/styles/slideinpage.css'
-const SlideInPage = () => {
+import '/src/styles/slideshow.css'
+const SlideShow = () => {
   return (
     <div id="carouselExampleAutoplaying" className="carousel slide container-fluid" data-bs-ride="carousel">
       <div className="carousel-inner container justify-content-center">
@@ -27,4 +27,4 @@ const SlideInPage = () => {
   )
 }
 
-export default SlideInPage
+export default SlideShow
