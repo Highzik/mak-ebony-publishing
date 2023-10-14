@@ -16,6 +16,15 @@ const Home = () => {
     sr.reveal(imageRef.current, { delay: 300, origin: 'bottom' });
     sr.reveal(articleRef.current, { delay: 300, origin: 'bottom' });
   })
+  // useEffect(() => {
+  //   fetch(' http://localhost:8000/subscribers')
+  //     .then(res => {
+  //       return res.json()
+  //     })
+  //     .then(data => {
+  //       console.log(data)
+  //     })
+  // })
 
   //logic to notify the name and email of a customer
   const [fname, setFname] = useState('');

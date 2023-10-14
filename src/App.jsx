@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SlideShow from './components/SlideShow';
+import Subscribers from './components/Subscribers';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Features />
       <About />
+      <Subscribers />
       <Testimonials />
       <SlideShow />
       <Contact />
