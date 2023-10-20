@@ -24,3 +24,23 @@
   font-size: 12px;
   margin-top: 20px;
 }
+
+.mainCont {
+  margin-top: 100px;
+}
+
+.cont1,
+.cont2,
+.cont3 p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.cont1,
+.cont2,
+.cont3 {
+  background: #222;
+  border: 5px solid #111;
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -2,6 +2,7 @@ import { FaStar } from 'react-icons/fa'
 import '/src/styles/testimonial.css'
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
+import { FaMapMarker, FaPhone, FaEnvelope } from 'react-icons/fa'
 
 const Testimonials = () => {
   const article1Ref = useRef(null);
@@ -54,7 +55,24 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+      <div className="container mainCont">
+        <div className="row">
+          <div className="cont1 col-lg-4 col-md-6">
+            <p><FaMapMarker style={secondReactIconStyle} /> Locate us</p>
+            <p>Shop III, SUBEB, Maryland Bus Stop</p>
+          </div>
+          <div className="cont2 col-lg-4 col-md-6">
+            <p><FaPhone style={secondReactIconStyle} /> Give us a call</p>
+            <p>Office: +234-807-7711-162</p>
+          </div>
+          <div className="cont3 col-lg-4 col-md-6">
+            <p><FaEnvelope style={secondReactIconStyle} /> Get it online</p>
+            <p>osonowoolufemi11@gmail.com</p>
+          </div>
+        </div>
+      </div>
     </div>
+
   )
 }
 
@@ -65,6 +83,12 @@ const reactIconStyle = {
   fontSize: '20px',
   marginRight: '5px',
   marginBottom: '15px'
+}
+
+const secondReactIconStyle =
+{
+  color: '#758e4f',
+  fontSize: '20px'
 }
 
 //this is to allow the star maintain its default color
