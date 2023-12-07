@@ -23,7 +23,7 @@ const About = () => {
         <button className='submit-btn-2'>Advance Accounting Expertise</button>
       </div>
       <div className='container text-center' ref={imgRef}>
-        <img src="src/components/images/img-2.jpg" alt="a lady typing on a laptop" className='img-fluid logo-5' />
+        <img src="/img-2.JPG" alt="a lady typing on a laptop" className='img-fluid logo-5' />
       </div>
     </div>
   )
