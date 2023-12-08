@@ -31,19 +31,19 @@ const Features = () => {
         <h1 className='mb-2 feature-header'>Features</h1>
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-2 firstImgContainer">
-            <img src="/img-3.JPG" alt="pictures of coins" className='img-fluid w-100 h-100 logo-2 mb-1' />
+            <img src="src/images/img-3.jpg" alt="pictures of coins" className='img-fluid w-100 h-100 logo-2 mb-1' />
 
             {/* I gave the same className for the paragraph because it aids the styling */}
             <p className='exam-preparations'>ICAN Exam Prep</p>
           </div>
           <div className="col-lg-4 col-md-6 mb-2 secondImgContainer">
-            <img src="/img-4.JPG" alt="a lady typing on a laptop" className='img-fluid w-100 h-100 logo-3 mb-1' />
+            <img src="src/images/img-4.jpg" alt="a lady typing on a laptop" className='img-fluid w-100 h-100 logo-3 mb-1' />
 
             {/* I gave the same className for the paragraph because it aids the styling */}
             <p className='exam-preparations'>Accounting Materials</p>
           </div>
           <div className="col-lg-4 col-md-6 mb-2 thirdImgContainer">
-            <img src="/img-5.JPG" alt="two ladies close to each other" className='img-fluid w-100 h-100 logo-4 mb-1' />
+            <img src="src/images/img-5.jpg" alt="two ladies close to each other" className='img-fluid w-100 h-100 logo-4 mb-1' />
 
             {/* I gave the same className for the paragraph because it aids the styling */}
             <p className='exam-preparations'>ICAN Certification Prep</p>

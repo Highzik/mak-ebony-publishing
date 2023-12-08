@@ -58,7 +58,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="col-lg-6" ref={article2Ref}>
-            <img src="/img-1.JPG" alt="a glass and a pen on a book" className='img-fluid logo-6' />
+            <img src="src/images/img-1.jpg" alt="a glass and a pen on a book" className='img-fluid logo-6' />
           </div>
         </div>
       </div>

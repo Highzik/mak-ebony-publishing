@@ -4,13 +4,13 @@ const SlideShow = () => {
     <div id="carouselExampleAutoplaying" className="carousel slide container-fluid" data-bs-ride="carousel">
       <div className="carousel-inner container justify-content-center">
         <div className="carousel-item active">
-          <img src="/img-3.JPG" className="img-fluid logo-7" alt="" />
+          <img src="src/images/img-3.JPG" className="img-fluid logo-7" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="/img-2.JPG" className="img-fluid logo-8" alt="" />
+          <img src="src/images/img-2.JPG" className="img-fluid logo-8" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="/img-4.JPG" className="img-fluid logo-9" alt="" />
+          <img src="src/images/img-4.JPG" className="img-fluid logo-9" alt="" />
         </div>
       </div>
       <div className="container justify-content-center">

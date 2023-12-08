@@ -43,7 +43,7 @@ const Home = () => {
           <div
             className='col-md-12 col-lg-6'
             ref={imageRef}>
-            <img src="/img-6.JPG"
+            <img src="src/images/img-6.JPG"
               alt="a phone and a notepad"
               className="logo-1 img-fluid h-100 w-100" />
           </div>
