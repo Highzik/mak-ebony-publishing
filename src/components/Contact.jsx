@@ -1,6 +1,7 @@
 import '/src/styles/contact.css'
 import { useEffect, useRef, useState } from 'react'
 import ScrollReveal from 'scrollreveal'
+import img1 from '../images/img-1.jpg'
 
 const Contact = () => {
   const article1Ref = useRef(null)
@@ -58,7 +59,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="col-lg-6" ref={article2Ref}>
-            <img src="src/images/img-1.jpg" alt="a glass and a pen on a book" className='img-fluid logo-6' />
+            <img src={img1} alt="a glass and a pen on a book" className='img-fluid logo-6' />
           </div>
         </div>
       </div>

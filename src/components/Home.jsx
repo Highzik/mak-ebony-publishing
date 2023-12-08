@@ -1,6 +1,7 @@
 import '/src/styles/home.css'
 import { useState, useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal';
+import img6 from '../images/img-6.jpg'
 
 const Home = () => {
   // effect to make the images slide in from the bottom
@@ -43,7 +44,7 @@ const Home = () => {
           <div
             className='col-md-12 col-lg-6'
             ref={imageRef}>
-            <img src="src/images/img-6.jpg"
+            <img src={img6}
               alt="a phone and a notepad"
               className="logo-1 img-fluid h-100 w-100" />
           </div>

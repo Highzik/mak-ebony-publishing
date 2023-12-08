@@ -1,6 +1,7 @@
 import '/src/styles/about.css'
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal';
+import img2 from '../images/img-2.jpg'
 
 const About = () => {
   const articleRef = useRef(null);
@@ -23,7 +24,7 @@ const About = () => {
         <button className='submit-btn-2'>Advance Accounting Expertise</button>
       </div>
       <div className='container text-center' ref={imgRef}>
-        <img src="src/images/img-2.jpg" alt="a lady typing on a laptop" className='img-fluid logo-5' />
+        <img src={img2} alt="a lady typing on a laptop" className='img-fluid logo-5' />
       </div>
     </div>
   )

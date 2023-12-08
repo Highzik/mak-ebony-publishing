@@ -1,16 +1,19 @@
 import '/src/styles/slideshow.css'
+import img3 from '../images/img-3.jpg'
+import img2 from '../images/img-2.jpg'
+import img4 from '../images/img-4.jpg'
 const SlideShow = () => {
   return (
     <div id="carouselExampleAutoplaying" className="carousel slide container-fluid" data-bs-ride="carousel">
       <div className="carousel-inner container justify-content-center">
         <div className="carousel-item active">
-          <img src="src/images/img-3.JPG" className="img-fluid logo-7" alt="" />
+          <img src={img3} className="img-fluid logo-7" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="src/images/img-2.JPG" className="img-fluid logo-8" alt="" />
+          <img src={img2} className="img-fluid logo-8" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="src/images/img-4.JPG" className="img-fluid logo-9" alt="" />
+          <img src={img4} className="img-fluid logo-9" alt="" />
         </div>
       </div>
       <div className="container justify-content-center">
