@@ -1,22 +1,8 @@
 import '/src/styles/home.css'
-import { useState, useEffect, useRef } from 'react'
-import ScrollReveal from 'scrollreveal';
 import img6 from '../images/img-6.jpg'
 
 const Home = () => {
   // effect to make the images slide in from the bottom
-  const imageRef = useRef(null);
-  const articleRef = useRef(null);
-  useEffect(() => {
-    const sr = ScrollReveal({
-      distance: '60px',
-      duration: 2500,
-      reset: true,
-      easing: 'ease'
-    })
-    sr.reveal(imageRef.current, { delay: 300, origin: 'bottom' });
-    sr.reveal(articleRef.current, { delay: 300, origin: 'bottom' });
-  })
   // useEffect(() => {
   //   fetch(' http://localhost:8000/subscribers')
   //     .then(res => {
@@ -42,8 +28,7 @@ const Home = () => {
         <div className="row">
           {/* image section */}
           <div
-            className='col-md-12 col-lg-6'
-            ref={imageRef}>
+            className='col-md-12 col-lg-6'>
             <img src={img6}
               alt="a phone and a notepad"
               className="logo-1 img-fluid h-100 w-100" />
@@ -51,8 +36,7 @@ const Home = () => {
 
           {/* article section */}
           <div
-            className='col-md-12 col-lg-6'
-            ref={articleRef}>
+            className='col-md-12 col-lg-6'>
             <h1 className='header text-center text-fluid'>Your gateway to ICAN accounting success</h1>
             <p className='sub-header text-center'>Empower your accounting education with Mak-Ebony Publishing - your source for top-notch ICAN certification materials and comprhensive study resources</p>
 

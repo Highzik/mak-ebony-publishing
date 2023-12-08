@@ -1,24 +1,10 @@
 import '/src/styles/features.css'
-import { useEffect, useRef, useState } from 'react'
-import ScrollReveal from 'scrollreveal'
 import img3 from '../images/img-3.jpg'
 import img4 from '../images/img-4.jpg'
 import img5 from '../images/img-5.jpg'
 
 const Features = () => {
   // effect to make this section slide out from the bottom 
-  const firstContainerRef = useRef(null);
-  const secondContainerRef = useRef(null);
-  useEffect(() => {
-    const sr = ScrollReveal({
-      distance: '60px',
-      duration: 2500,
-      reset: true,
-      easing: 'ease'
-    })
-    sr.reveal(firstContainerRef.current, { delay: 300, origin: 'bottom' });
-    sr.reveal(secondContainerRef.current, { delay: 300, origin: 'bottom' })
-  })
 
   //this aspect is to control the state of the email input
   const [email, setEmail] = useState('');
@@ -30,7 +16,7 @@ const Features = () => {
   return (
     <section className='features contain-fluid'>
       {/* this is the section about the features and the images */}
-      <div className="container mb-2" ref={firstContainerRef}>
+      <div className="container mb-2">
         <h1 className='mb-2 feature-header'>Features</h1>
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-2 firstImgContainer">
@@ -55,7 +41,7 @@ const Features = () => {
       </div>
 
       {/* This is the section for subscribing to newsletter */}
-      <div className="text-center" ref={secondContainerRef}>
+      <div className="text-center">
         <p className='text-subscription mb-1'>Subscribe to our newsletter</p>
         <p className='subtext-subscription'>Obtain our most recent news and updates</p>
         <div className="justify-content-center">
