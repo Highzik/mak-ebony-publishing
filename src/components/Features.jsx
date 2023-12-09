@@ -2,6 +2,7 @@ import '/src/styles/features.css'
 import img3 from '../images/img-3.jpg'
 import img4 from '../images/img-4.jpg'
 import img5 from '../images/img-5.jpg'
+import { useState } from 'react'
 
 const Features = () => {
   // effect to make this section slide out from the bottom 

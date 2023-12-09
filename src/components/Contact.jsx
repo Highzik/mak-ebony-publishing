@@ -1,5 +1,6 @@
 import '/src/styles/contact.css'
 import img1 from '../images/img-1.jpg'
+import { useState } from 'react'
 
 const Contact = () => {
   //this is to be aware of the state of the inputs

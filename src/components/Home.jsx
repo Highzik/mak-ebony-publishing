@@ -1,5 +1,6 @@
 import '/src/styles/home.css'
 import img6 from '../images/img-6.jpg'
+import { useState } from 'react'
 
 const Home = () => {
   // effect to make the images slide in from the bottom
